@@ -1,5 +1,7 @@
 import { FC } from 'react';
-import Link from "next/link";
+
+import Link from 'next/link';
+
 export const ContentContainer: FC = props => {
 
   return (
@@ -20,11 +22,6 @@ export const ContentContainer: FC = props => {
           <li>
             <Link href="/">
               <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/basics">
-              <a>Basics</a>
             </Link>
           </li>
         </ul>
